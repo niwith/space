@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Deploy to GitHub Pages
 
 # Controls when the action will run. 
 on:
@@ -29,7 +29,7 @@ jobs:
       
       # publishes Blazor project to the release-folder
       - name: Publish .NET Blazor Project
-        run: dotnet publish src/Space/Space.csproj -c Release -o release --nologo
+        run: dotnet publish src/Space.Client/Space.Client.csproj -c Release -o release --nologo
         
       - name: Commit wwwroot to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
