@@ -2,7 +2,7 @@
   "cacheBootResources": true,
   "config": [ ],
   "debugBuild": false,
-  "entryAssembly": "Space",
+  "entryAssembly": "Space.Client",
   "icuDataMode": 0,
   "linkerEnabled": true,
   "resources": {
@@ -22,7 +22,7 @@
       "Microsoft.JSInterop.dll": "sha256-N4XAFLJVt3+GYIxtLACFnW1EsfpwbFGztm6A4fVsCKw=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-LkNprID5vhUSogSnLuIsAzYQL4dtKGSGQSGrlWJ+Kos=",
       "System.IO.Pipelines.dll": "sha256-qZYTUS+ga7CydtH54fYPbehFCvx3B49I74G8dxreTog=",
-      "Space.dll": "sha256-ZA0RjvEi8lwd5v5BuM9TqcK4mEdXesN6a0\/uPYLRMHQ=",
+      "Space.Client.dll": "sha256-l\/JOWhP2WOvvK4Sl6uN9kq\/XhMuzNgeN38DXijNlu5A=",
       "System.Collections.Concurrent.dll": "sha256-sa3ijvE71zSd7D3zHfSEDGBkAc2WqWZQVr6mMFP4Q58=",
       "System.Collections.Immutable.dll": "sha256-7NJ55BkhIzbEb1zKOUveqkXnoHdTx\/Z4Czl4PdTNhGk=",
       "System.Collections.dll": "sha256-q\/1sosDFtqKjhCOLoFr1xh0URpILPPW7mDJHOHGg3AA=",
