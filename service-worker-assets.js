@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-SO\/fuIIWUxoIu1OABrOpK5n\/AvzxJcg+0H3PT1eutAE=",
+      "hash": "sha256-iYcqa4\/cZx4QrGSdzR6\/de3WBKhXssXlSiEZVKMCeU0=",
       "url": "css\/app.css"
     },
     {
@@ -57,7 +57,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-2wj1MNbtHeVn0KHkqRDV9n5fv1wY4rdy6ST6gc4z+aM=",
+      "hash": "sha256-RsGfAEnpT+bajR53ZYlZkwx0EHb\/CgpH6T1RXpTqpuw=",
       "url": "index.html"
     },
     {
@@ -97,7 +97,7 @@
       "url": "_framework\/dotnet.5.0.1.js"
     },
     {
-      "hash": "sha256-6uI6c34xzqm\/u9qD0TokbLXh17\/8p59By1dnwphbum4=",
+      "hash": "sha256-VW4LdmxCNw3DWZKNGMBsNuDGi8vLlVfIlznrcQSZWf4=",
       "url": "Space.Client.styles.css"
     },
     {
@@ -165,7 +165,7 @@
       "url": "_framework\/Space.Game.dll"
     },
     {
-      "hash": "sha256-gBDF5tXmYYw5mZO45VvKcMScZlbIg8pXdUUv5NjBH2g=",
+      "hash": "sha256-G+FljrylUrU6+T3WD9E4Vr8gexejeHo8kYspuKrKScg=",
       "url": "_framework\/Space.Client.dll"
     },
     {
@@ -237,11 +237,11 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-tuYxRA4k\/GZAWRBC2R5EerE591LeiQGRw51pblnr8CI=",
+      "hash": "sha256-AwYu3Op0lH9CcLQFFaX1oY1r0JMj5vCH++sQvDPmmTE=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-OUixHfnLv\/1WvfgdgTr7NPaIq9k9YhVaxcEks3NRqfA=",
+      "hash": "sha256-rkiq88yx64j0J\/DtLE3SeF7IG8494iCNjvoAl18ssC0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -249,5 +249,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "EIPvGbp0"
+  "version": "1O4sB\/uS"
 };
