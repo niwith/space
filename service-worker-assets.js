@@ -161,7 +161,11 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-l\/JOWhP2WOvvK4Sl6uN9kq\/XhMuzNgeN38DXijNlu5A=",
+      "hash": "sha256-nP9REUZDC71HX4lblneAACBf2TYgU9X8JNGJGsJfHnI=",
+      "url": "_framework\/Space.Game.dll"
+    },
+    {
+      "hash": "sha256-gBDF5tXmYYw5mZO45VvKcMScZlbIg8pXdUUv5NjBH2g=",
       "url": "_framework\/Space.Client.dll"
     },
     {
@@ -237,7 +241,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-VKfSlSys7TAWSYvsZoRUME\/0T4utRHrUDHi7Zev4tQs=",
+      "hash": "sha256-OUixHfnLv\/1WvfgdgTr7NPaIq9k9YhVaxcEks3NRqfA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -245,5 +249,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "7XDMpfit"
+  "version": "EIPvGbp0"
 };
