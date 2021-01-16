@@ -169,7 +169,7 @@
       "url": "_framework\/Space.Game.dll"
     },
     {
-      "hash": "sha256-sBlxzYUwDMCMu8w5x9yfPLvfYYwkPKk58h5SJ3sxVLQ=",
+      "hash": "sha256-IgQNQEFKKwaEe8dl\/D1\/ljXEEJj6Qif6NN4z2EduyQI=",
       "url": "_framework\/Space.Client.dll"
     },
     {
@@ -249,7 +249,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-VfdAlSdCd85Io5xwrD6k+0BdO8GmG7ZEm4I9HPEItic=",
+      "hash": "sha256-98ofKUF9hh9yoC3E7N7Yq3c+omM4zkhe2UxNczoRQXY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -257,5 +257,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "qPhtJ99\/"
+  "version": "BjgEsZtR"
 };
