@@ -15,8 +15,8 @@ namespace Space.Client.Shared
 
         bool isLoaded;
 
-        string LoadingText { get; set; } = "Welcome commander";
-        string WelcomeText { get; set; } = "";
+        string LoadingText { get; set; } = "";
+        string WelcomeText { get; set; } = "Welcome commander";
 
         private Random _rand = new Random();
 
