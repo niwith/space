@@ -8,6 +8,11 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Space.Game;
+using Blazored.LocalStorage;
+using Space.Client.Services;
+using Space.Game.Services;
+using Blazored.LocalStorage.StorageOptions;
+using Blazored.LocalStorage.JsonConverters;
 
 namespace Space.Client
 {
@@ -19,9 +24,16 @@ namespace Space.Client
             builder.RootComponents.Add<App>("#app");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            ConfigureServices(builder.Services);
             
             await builder.Build().RunAsync();
-            new Class1();
+        }
+
+        public static void ConfigureServices(IServiceCollection services)
+        {
+            //services.AddBlazoredLocalStorage();
+            services.AddBlazoredLocalStorageSingleton();
+            services.AddSingleton<ISaveService, BlazorLocalStorageSaveService>();
         }
     }
 }

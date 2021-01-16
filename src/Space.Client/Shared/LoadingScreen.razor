@@ -5,52 +5,7 @@
 else
 {
     <div class="fade-in" style="position:absolute; top:30vh; width:100%; text-align:center">
-        <h1>Welcome back commander</h1>
+        <h1>@WelcomeText</h1>
         <p>@LoadingText</p>
     </div>
-}
-
-@code {
-    bool isLoaded;
-
-    [Parameter]
-    public RenderFragment ChildContent { get; set; }
-
-    public string LoadingText { get; set; } = "";
-
-    private Random _rand = new Random();
-
-    private string[] _mandatoryLoadingText = new string[] {
-        "Loading core interface...",
-        "Loading ship's manifest...",
-        "Initialising control systems..."
-    };
-
-    private string[] _loadingTextOptions = new string[] {
-        "Contemplating the meaning of life...",
-        "Clearing the crew browser history..."
-    };
-
-    private string _finalLoadingMessage = "Transitioning to manual control...";
-
-    protected override async Task OnInitializedAsync()
-    {
-        var loadingWork = Task.Delay(6000); // TODO actual initialization job
-        for (int i = 0; !loadingWork.IsCompleted; i++)
-        {
-            if (i < _mandatoryLoadingText.Length)
-            {
-                LoadingText = _mandatoryLoadingText[i];
-            }
-            else
-            {
-                LoadingText = _loadingTextOptions[_rand.Next(_loadingTextOptions.Length)];
-            }
-            StateHasChanged();
-            await Task.Delay(2000);
-        }
-        LoadingText = _finalLoadingMessage;
-        await Task.Delay(2000);
-        isLoaded = true;
-    }
 }
