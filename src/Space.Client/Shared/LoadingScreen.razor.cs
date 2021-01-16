@@ -8,10 +8,10 @@ namespace Space.Client.Shared
     public partial class LoadingScreen
     {
         [Inject]
-        private ISaveService SaveService { get; set; }
+        private ISaveService? SaveService { get; set; }
 
         [Parameter]
-        public RenderFragment ChildContent { get; set; }
+        public RenderFragment? ChildContent { get; set; }
 
         bool isLoaded;
 
@@ -35,10 +35,13 @@ namespace Space.Client.Shared
 
         protected override async Task OnInitializedAsync()
         {
+            if (SaveService == null) { throw new ArgumentException($"Save {nameof(SaveService)} cannot be null"); }
+
             if (await SaveService.CheckPlayerHasSaveAsync())
             {
                 WelcomeText = "Welcome back commander";
             }
+            await SaveService.TryLoadAsync();
             await SaveService.SaveAsync(new Game.GlobalGameState { CommanderName = "Commander", HasCompletedIntroduction = false });
 
             var loadingWork = Task.Delay(6000); // TODO actual initialization job

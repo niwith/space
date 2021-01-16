@@ -20,7 +20,7 @@ namespace Space.Client.Services
             await _localStorage.SetItemAsync(SaveGameLocalStorageKey, gameState);
         }
 
-        protected override async Task<GlobalGameState> InternalLoadAsync()
+        protected override async Task<GlobalGameState?> InternalLoadAsync()
         {
             if (!await _localStorage.ContainKeyAsync(SaveGameLocalStorageKey))
             {
